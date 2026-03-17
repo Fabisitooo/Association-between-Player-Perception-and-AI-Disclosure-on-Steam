@@ -1,0 +1,24 @@
+scope,sentiment,keyword,category,source_filter,review_count,review_share_pct
+Group 2 (AI Added - Recent),positive,ai,"strict_core,tech","soft,strict",305,4.589
+Group 2 (AI Added - Recent),positive,human,human,soft,56,0.843
+Group 2 (AI Added - Recent),positive,cheap,quality,soft,48,0.722
+Group 2 (AI Added - Recent),positive,trash,quality,soft,38,0.572
+Group 2 (AI Added - Recent),positive,bland,quality,soft,29,0.436
+Group 2 (AI Added - Recent),positive,slop,quality,soft,22,0.331
+Group 2 (AI Added - Recent),positive,ai slop,quality,soft,20,0.301
+Group 2 (AI Added - Recent),positive,lazy,quality,soft,20,0.301
+Group 2 (AI Added - Recent),positive,prompt,tech,soft,16,0.241
+Group 2 (AI Added - Recent),positive,passion,human,soft,14,0.211
+Group 2 (AI Added - Recent),positive,creativity,human,soft,13,0.196
+Group 2 (AI Added - Recent),positive,ai generated,strict_core,strict,12,0.181
+Group 2 (AI Added - Recent),positive,steal,ethics,soft,12,0.181
+Group 2 (AI Added - Recent),positive,uncanny,quality,soft,12,0.181
+Group 2 (AI Added - Recent),positive,llm,"strict_core,tech","soft,strict",11,0.166
+Group 2 (AI Added - Recent),positive,soulless,quality,soft,11,0.166
+Group 2 (AI Added - Recent),positive,gpt,tech,soft,9,0.135
+Group 2 (AI Added - Recent),positive,artist,human,soft,6,0.09
+Group 2 (AI Added - Recent),positive,algorithm,tech,soft,5,0.075
+Group 2 (AI Added - Recent),positive,chatgpt,"strict_core,tech","soft,strict",5,0.075
+Group 2 (AI Added - Recent),positive,ethics,ethics,soft,5,0.075
+Group 2 (AI Added - Recent),positive,soul,human,soft,5,0.075
+Group 2 (AI Added - Recent),positive,talent,human,soft,5,0.075

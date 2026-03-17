@@ -1,0 +1,42 @@
+scope,sentiment,keyword,category,source_filter,review_count,review_share_pct
+overall,negative,ai,"strict_core,tech","soft,strict",1459,14.322
+overall,negative,slop,quality,soft,310,3.043
+overall,negative,trash,quality,soft,235,2.307
+overall,negative,garbage,quality,soft,214,2.101
+overall,negative,ai slop,quality,soft,178,1.747
+overall,negative,ai generated,strict_core,strict,163,1.6
+overall,negative,cheap,quality,soft,161,1.58
+overall,negative,lazy,quality,soft,112,1.099
+overall,negative,generative,"strict_core,tech","soft,strict",101,0.991
+overall,negative,human,human,soft,85,0.834
+overall,negative,generic,quality,soft,74,0.726
+overall,negative,ai-generated,strict_core,strict,59,0.579
+overall,negative,creativity,human,soft,52,0.51
+overall,negative,soulless,quality,soft,52,0.51
+overall,negative,soul,human,soft,50,0.491
+overall,negative,artist,human,soft,44,0.432
+overall,negative,bland,quality,soft,44,0.432
+overall,negative,passion,human,soft,37,0.363
+overall,negative,llm,"strict_core,tech","soft,strict",35,0.344
+overall,negative,steal,ethics,soft,35,0.344
+overall,negative,chatgpt,"strict_core,tech","soft,strict",25,0.245
+overall,negative,stolen,ethics,soft,25,0.245
+overall,negative,artificial,quality,soft,23,0.226
+overall,negative,theft,ethics,soft,22,0.216
+overall,negative,talent,human,soft,20,0.196
+overall,negative,gpt,tech,soft,19,0.187
+overall,negative,unethical,ethics,soft,19,0.187
+overall,negative,low effort,quality,soft,18,0.177
+overall,negative,prompt,tech,soft,18,0.177
+overall,negative,ethical,ethics,soft,17,0.167
+overall,negative,uncanny,quality,soft,10,0.098
+overall,negative,scraping,ethics,soft,9,0.088
+overall,negative,artificial intelligence,"strict_core,tech","soft,strict",8,0.079
+overall,negative,plagiarism,ethics,soft,8,0.079
+overall,negative,real person,human,soft,8,0.079
+overall,negative,algorithm,tech,soft,7,0.069
+overall,negative,ethics,ethics,soft,7,0.069
+overall,negative,voiceover,human,soft,7,0.069
+overall,negative,scrape,ethics,soft,6,0.059
+overall,negative,voice actor,human,soft,6,0.059
+overall,negative,copyright,ethics,soft,5,0.049

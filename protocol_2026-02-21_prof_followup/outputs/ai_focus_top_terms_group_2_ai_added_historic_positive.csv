@@ -1,0 +1,6 @@
+scope,sentiment,keyword,category,source_filter,review_count,review_share_pct
+Group 2 (AI Added - Historic),positive,ai,"strict_core,tech","soft,strict",58,12.083
+Group 2 (AI Added - Historic),positive,gpt,tech,soft,12,2.5
+Group 2 (AI Added - Historic),positive,trash,quality,soft,8,1.667
+Group 2 (AI Added - Historic),positive,cheap,quality,soft,6,1.25
+Group 2 (AI Added - Historic),positive,prompt,tech,soft,6,1.25

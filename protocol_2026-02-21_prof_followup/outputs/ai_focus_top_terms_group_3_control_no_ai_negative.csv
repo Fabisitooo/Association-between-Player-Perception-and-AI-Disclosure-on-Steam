@@ -1,0 +1,11 @@
+scope,sentiment,keyword,category,source_filter,review_count,review_share_pct
+Group 3 (Control / No AI),negative,ai,"strict_core,tech","soft,strict",25,2.884
+Group 3 (Control / No AI),negative,trash,quality,soft,15,1.73
+Group 3 (Control / No AI),negative,cheap,quality,soft,12,1.384
+Group 3 (Control / No AI),negative,garbage,quality,soft,9,1.038
+Group 3 (Control / No AI),negative,bland,quality,soft,8,0.923
+Group 3 (Control / No AI),negative,lazy,quality,soft,7,0.807
+Group 3 (Control / No AI),negative,creativity,human,soft,6,0.692
+Group 3 (Control / No AI),negative,human,human,soft,6,0.692
+Group 3 (Control / No AI),negative,artificial,quality,soft,5,0.577
+Group 3 (Control / No AI),negative,generic,quality,soft,5,0.577

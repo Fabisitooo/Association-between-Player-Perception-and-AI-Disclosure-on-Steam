@@ -1,0 +1,48 @@
+scope,sentiment,category,review_count_sum
+Group 1 (Native AI),negative,strict_core,1489
+Group 1 (Native AI),negative,tech,1329
+Group 1 (Native AI),negative,quality,1034
+Group 1 (Native AI),negative,human,236
+Group 1 (Native AI),negative,ethics,115
+Group 1 (Native AI),positive,strict_core,1767
+Group 1 (Native AI),positive,tech,1652
+Group 1 (Native AI),positive,quality,822
+Group 1 (Native AI),positive,human,681
+Group 1 (Native AI),positive,ethics,122
+Group 2 (AI Added - Historic),negative,tech,65
+Group 2 (AI Added - Historic),negative,strict_core,60
+Group 2 (AI Added - Historic),negative,quality,58
+Group 2 (AI Added - Historic),negative,ethics,9
+Group 2 (AI Added - Historic),negative,human,6
+Group 2 (AI Added - Historic),positive,tech,76
+Group 2 (AI Added - Historic),positive,strict_core,58
+Group 2 (AI Added - Historic),positive,quality,14
+Group 2 (AI Added - Recent),negative,strict_core,270
+Group 2 (AI Added - Recent),negative,quality,260
+Group 2 (AI Added - Recent),negative,tech,243
+Group 2 (AI Added - Recent),negative,human,38
+Group 2 (AI Added - Recent),negative,ethics,5
+Group 2 (AI Added - Recent),positive,tech,351
+Group 2 (AI Added - Recent),positive,strict_core,333
+Group 2 (AI Added - Recent),positive,quality,200
+Group 2 (AI Added - Recent),positive,human,99
+Group 2 (AI Added - Recent),positive,ethics,17
+Group 3 (Control / No AI),negative,quality,61
+Group 3 (Control / No AI),negative,strict_core,25
+Group 3 (Control / No AI),negative,tech,25
+Group 3 (Control / No AI),negative,human,12
+Group 3 (Control / No AI),positive,human,154
+Group 3 (Control / No AI),positive,quality,121
+Group 3 (Control / No AI),positive,tech,63
+Group 3 (Control / No AI),positive,strict_core,58
+Group 3 (Control / No AI),positive,ethics,30
+overall,negative,strict_core,1850
+overall,negative,tech,1672
+overall,negative,quality,1431
+overall,negative,human,309
+overall,negative,ethics,153
+overall,positive,strict_core,2231
+overall,positive,tech,2148
+overall,positive,quality,1175
+overall,positive,human,946
+overall,positive,ethics,181

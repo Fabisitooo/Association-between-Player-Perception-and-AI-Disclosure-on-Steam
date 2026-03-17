@@ -1,0 +1,40 @@
+scope,sentiment,keyword,category,source_filter,review_count,review_share_pct
+Group 1 (Native AI),negative,ai,"strict_core,tech","soft,strict",1155,17.484
+Group 1 (Native AI),negative,slop,quality,soft,250,3.784
+Group 1 (Native AI),negative,ai slop,quality,soft,151,2.286
+Group 1 (Native AI),negative,ai generated,strict_core,strict,141,2.134
+Group 1 (Native AI),negative,trash,quality,soft,135,2.044
+Group 1 (Native AI),negative,garbage,quality,soft,133,2.013
+Group 1 (Native AI),negative,cheap,quality,soft,110,1.665
+Group 1 (Native AI),negative,lazy,quality,soft,85,1.287
+Group 1 (Native AI),negative,generative,"strict_core,tech","soft,strict",81,1.226
+Group 1 (Native AI),negative,human,human,soft,66,0.999
+Group 1 (Native AI),negative,generic,quality,soft,55,0.833
+Group 1 (Native AI),negative,ai-generated,strict_core,strict,53,0.802
+Group 1 (Native AI),negative,soulless,quality,soft,48,0.727
+Group 1 (Native AI),negative,soul,human,soft,40,0.606
+Group 1 (Native AI),negative,creativity,human,soft,38,0.575
+Group 1 (Native AI),negative,artist,human,soft,35,0.53
+Group 1 (Native AI),negative,llm,"strict_core,tech","soft,strict",30,0.454
+Group 1 (Native AI),negative,bland,quality,soft,29,0.439
+Group 1 (Native AI),negative,steal,ethics,soft,27,0.409
+Group 1 (Native AI),negative,stolen,ethics,soft,25,0.378
+Group 1 (Native AI),negative,passion,human,soft,23,0.348
+Group 1 (Native AI),negative,chatgpt,"strict_core,tech","soft,strict",22,0.333
+Group 1 (Native AI),negative,artificial,quality,soft,17,0.257
+Group 1 (Native AI),negative,ethical,ethics,soft,17,0.257
+Group 1 (Native AI),negative,unethical,ethics,soft,16,0.242
+Group 1 (Native AI),negative,low effort,quality,soft,15,0.227
+Group 1 (Native AI),negative,talent,human,soft,15,0.227
+Group 1 (Native AI),negative,gpt,tech,soft,14,0.212
+Group 1 (Native AI),negative,prompt,tech,soft,14,0.212
+Group 1 (Native AI),negative,theft,ethics,soft,11,0.167
+Group 1 (Native AI),negative,scraping,ethics,soft,9,0.136
+Group 1 (Native AI),negative,artificial intelligence,"strict_core,tech","soft,strict",7,0.106
+Group 1 (Native AI),negative,real person,human,soft,7,0.106
+Group 1 (Native AI),negative,voiceover,human,soft,7,0.106
+Group 1 (Native AI),negative,algorithm,tech,soft,6,0.091
+Group 1 (Native AI),negative,uncanny,quality,soft,6,0.091
+Group 1 (Native AI),negative,plagiarism,ethics,soft,5,0.076
+Group 1 (Native AI),negative,scrape,ethics,soft,5,0.076
+Group 1 (Native AI),negative,voice actor,human,soft,5,0.076
