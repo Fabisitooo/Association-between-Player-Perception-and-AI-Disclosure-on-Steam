@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+
+# Local and review-level LIWC exports.
+liwc/input/
+liwc/output/
+liwc/LIWC-22_Results.csv
+
+# Local analysis scratch folders and LaTeX build artifacts.
+overleaf_upload/
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz

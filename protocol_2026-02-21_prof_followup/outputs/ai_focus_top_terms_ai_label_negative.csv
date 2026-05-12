@@ -1,0 +1,42 @@
+scope,sentiment,keyword,category,source_filter,review_count,review_share_pct
+AI-Label,negative,ai,"strict_core,tech","soft,strict",1374,15.739
+AI-Label,negative,slop,quality,soft,306,3.505
+AI-Label,negative,garbage,quality,soft,196,2.245
+AI-Label,negative,trash,quality,soft,191,2.188
+AI-Label,negative,ai slop,quality,soft,178,2.039
+AI-Label,negative,ai generated,strict_core,strict,163,1.867
+AI-Label,negative,cheap,quality,soft,129,1.478
+AI-Label,negative,lazy,quality,soft,105,1.203
+AI-Label,negative,generative,"strict_core,tech","soft,strict",100,1.145
+AI-Label,negative,human,human,soft,79,0.905
+AI-Label,negative,generic,quality,soft,69,0.79
+AI-Label,negative,ai-generated,strict_core,strict,58,0.664
+AI-Label,negative,soulless,quality,soft,52,0.596
+AI-Label,negative,soul,human,soft,48,0.55
+AI-Label,negative,artist,human,soft,41,0.47
+AI-Label,negative,creativity,human,soft,40,0.458
+AI-Label,negative,llm,"strict_core,tech","soft,strict",35,0.401
+AI-Label,negative,bland,quality,soft,34,0.389
+AI-Label,negative,passion,human,soft,34,0.389
+AI-Label,negative,steal,ethics,soft,32,0.367
+AI-Label,negative,chatgpt,"strict_core,tech","soft,strict",25,0.286
+AI-Label,negative,stolen,ethics,soft,25,0.286
+AI-Label,negative,unethical,ethics,soft,19,0.218
+AI-Label,negative,artificial,quality,soft,18,0.206
+AI-Label,negative,talent,human,soft,18,0.206
+AI-Label,negative,ethical,ethics,soft,17,0.195
+AI-Label,negative,low effort,quality,soft,17,0.195
+AI-Label,negative,prompt,tech,soft,15,0.172
+AI-Label,negative,gpt,tech,soft,14,0.16
+AI-Label,negative,theft,ethics,soft,11,0.126
+AI-Label,negative,uncanny,quality,soft,10,0.115
+AI-Label,negative,scraping,ethics,soft,9,0.103
+AI-Label,negative,plagiarism,ethics,soft,8,0.092
+AI-Label,negative,real person,human,soft,8,0.092
+AI-Label,negative,algorithm,tech,soft,7,0.08
+AI-Label,negative,artificial intelligence,"strict_core,tech","soft,strict",7,0.08
+AI-Label,negative,ethics,ethics,soft,7,0.08
+AI-Label,negative,voiceover,human,soft,7,0.08
+AI-Label,negative,scrape,ethics,soft,6,0.069
+AI-Label,negative,voice actor,human,soft,6,0.069
+AI-Label,negative,copyright,ethics,soft,5,0.057

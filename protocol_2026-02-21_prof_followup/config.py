@@ -27,6 +27,18 @@ GROUP_FILES = {
     "Group 3 (Control / No AI)": GROUP3_ACTIVE_FILE,
 }
 
+# Short-paper analysis grouping:
+# - currently AI-disclosed review contexts are collapsed into AI-Label
+# - historic pre-disclosure ratings and control ratings are collapsed into No AI-Label
+SOURCE_TO_LABEL_GROUP = {
+    "Group 1 (Native AI)": "AI-Label",
+    "Group 2 (AI Added - Recent)": "AI-Label",
+    "Group 2 (AI Added - Historic)": "No AI-Label",
+    "Group 3 (Control / No AI)": "No AI-Label",
+}
+
+ANALYSIS_GROUP_ORDER = ["AI-Label", "No AI-Label"]
+
 # grp2b optional breiter seed
 GROUP2_RECENT_FILE = GROUP2_ACTIVE_FILE
 

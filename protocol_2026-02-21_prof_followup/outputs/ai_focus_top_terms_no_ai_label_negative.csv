@@ -1,0 +1,13 @@
+scope,sentiment,keyword,category,source_filter,review_count,review_share_pct
+No AI-Label,negative,ai,"strict_core,tech","soft,strict",85,5.834
+No AI-Label,negative,trash,quality,soft,44,3.02
+No AI-Label,negative,cheap,quality,soft,32,2.196
+No AI-Label,negative,garbage,quality,soft,18,1.235
+No AI-Label,negative,creativity,human,soft,12,0.824
+No AI-Label,negative,theft,ethics,soft,11,0.755
+No AI-Label,negative,bland,quality,soft,10,0.686
+No AI-Label,negative,lazy,quality,soft,7,0.48
+No AI-Label,negative,human,human,soft,6,0.412
+No AI-Label,negative,artificial,quality,soft,5,0.343
+No AI-Label,negative,generic,quality,soft,5,0.343
+No AI-Label,negative,gpt,tech,soft,5,0.343

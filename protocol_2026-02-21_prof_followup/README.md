@@ -1,3 +1,15 @@
+# Follow-up Analysis Package
+
+This directory contains the follow-up scripts used for the extended Steam review analysis.
+
+## Scope
+
+The files in this directory cover three parts of the workflow:
+
+- positive-review collection for the existing game groups
+- follow-up analyses for word frequencies, contingency tables, sensitivity checks, and bootstrap uncertainty
+- optional expansion scripts used to document how additional candidate games were searched and screened
+
 ## Main files
 
 - `config.py`

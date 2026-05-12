@@ -189,19 +189,22 @@ def main():
             OUTPUT_DIR / "wordcloud_odds_overall.png",
             PROJECT_ROOT / "wordcloud_odds_overall.png",
         ),
-        "newly_ai_labeled": (
-            OUTPUT_DIR / "contingency_group_1_native_ai.csv",
-            OUTPUT_DIR / "wordcloud_odds_newly_ai_labeled.png",
-            PROJECT_ROOT / "wordcloud_odds_newly_ai_labeled.png",
+        "ai_label": (
+            OUTPUT_DIR / "contingency_ai_label.csv",
+            OUTPUT_DIR / "wordcloud_odds_ai_label.png",
+            PROJECT_ROOT / "wordcloud_odds_ai_label.png",
         ),
-        "without_ai_label": (
-            OUTPUT_DIR / "contingency_group_3_control_no_ai.csv",
-            OUTPUT_DIR / "wordcloud_odds_without_ai_label.png",
-            PROJECT_ROOT / "wordcloud_odds_without_ai_label.png",
+        "no_ai_label": (
+            OUTPUT_DIR / "contingency_no_ai_label.csv",
+            OUTPUT_DIR / "wordcloud_odds_no_ai_label.png",
+            PROJECT_ROOT / "wordcloud_odds_no_ai_label.png",
         ),
     }
 
     for _, (input_csv, output_png, root_png) in scope_map.items():
+        if not input_csv.exists():
+            print(f"[SKIP] Missing contingency file: {input_csv}")
+            continue
         negative_weights, positive_weights = build_scope_frequencies(
             input_csv, args.max_words_total
         )

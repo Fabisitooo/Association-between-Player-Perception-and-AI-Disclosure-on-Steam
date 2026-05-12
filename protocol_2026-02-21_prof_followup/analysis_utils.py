@@ -10,6 +10,7 @@ from config import (
     GROUP_FILES,
     OUTPUT_DIR,
     POSITIVE_OUTPUT_FILES,
+    SOURCE_TO_LABEL_GROUP,
     STOPWORDS,
 )
 
@@ -52,7 +53,11 @@ def _safe_read_csv(path, required_columns):
     return df
 
 
-def load_negative_reviews() -> pd.DataFrame:
+def to_label_group(source_group: str) -> str:
+    return SOURCE_TO_LABEL_GROUP.get(source_group, source_group)
+
+
+def load_negative_reviews(collapse_to_two_groups: bool = True) -> pd.DataFrame:
     frames = []
     required_columns = ["appid", "game_name", "review_text", "timestamp"]
 
@@ -62,19 +67,20 @@ def load_negative_reviews() -> pd.DataFrame:
             continue
 
         tmp = df[required_columns].copy()
-        tmp["BA_Group"] = group_name
+        tmp["source_BA_Group"] = group_name
+        tmp["BA_Group"] = to_label_group(group_name) if collapse_to_two_groups else group_name
         tmp["sentiment"] = "negative"
         frames.append(tmp)
 
     if not frames:
-        return pd.DataFrame(columns=required_columns + ["BA_Group", "sentiment"])
+        return pd.DataFrame(columns=required_columns + ["source_BA_Group", "BA_Group", "sentiment"])
 
     combined = pd.concat(frames, ignore_index=True)
     combined["review_text"] = combined["review_text"].astype(str).fillna("")
     return combined
 
 
-def load_positive_reviews() -> pd.DataFrame:
+def load_positive_reviews(collapse_to_two_groups: bool = True) -> pd.DataFrame:
     frames = []
     required_columns = ["appid", "game_name", "review_text", "timestamp", "BA_Group"]
 
@@ -84,12 +90,16 @@ def load_positive_reviews() -> pd.DataFrame:
             continue
 
         tmp = df[required_columns].copy()
-        tmp["BA_Group"] = tmp["BA_Group"].fillna(group_name)
+        tmp["source_BA_Group"] = tmp["BA_Group"].fillna(group_name)
+        if collapse_to_two_groups:
+            tmp["BA_Group"] = tmp["source_BA_Group"].map(to_label_group)
+        else:
+            tmp["BA_Group"] = tmp["source_BA_Group"]
         tmp["sentiment"] = "positive"
         frames.append(tmp)
 
     if not frames:
-        return pd.DataFrame(columns=required_columns + ["sentiment"])
+        return pd.DataFrame(columns=required_columns + ["source_BA_Group", "sentiment"])
 
     combined = pd.concat(frames, ignore_index=True)
     combined["review_text"] = combined["review_text"].astype(str).fillna("")
